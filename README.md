@@ -271,5 +271,5 @@ This is a work-in-progress POC for GSoC 2026 proposal. Feedback welcome!
 
 For questions or suggestions:
 - Open an issue in this repository
-- Reach out on Kubeflow Slack (#spark channel)
+- Reach out on Kubeflow Slack (#kubeflow-contributors)
 - Reference in GSoC proposal discussions
