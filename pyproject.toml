@@ -1,0 +1,29 @@
+[project]
+name = "kubeflow_spark_api"
+dynamic = ["version"]
+requires-python = ">=3.9"
+authors = [
+  { name = "The Kubeflow Authors", email = "kubeflow-discuss@googlegroups.com" },
+]
+license = "Apache-2.0"
+description = "Kubeflow Spark API models for Kubernetes resources to interact with the Spark Operator."
+readme = "README.md"
+keywords = ["kubeflow", "spark", "data engineering", "apache spark", "api"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+
+dependencies = ["pydantic>=2.10.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "kubeflow_spark_api/__init__.py"

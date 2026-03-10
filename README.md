@@ -273,3 +273,7 @@ For questions or suggestions:
 - Open an issue in this repository
 - Reach out on Kubeflow Slack (#kubeflow-contributors)
 - Reference in GSoC proposal discussions
+=======
+# Kubeflow SparkClient PoC
+Architectural research for GSoC 2026.
+>>>>>>> b185138 (build: setup PEP 621 package architecture with hatchling)
